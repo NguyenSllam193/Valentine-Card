@@ -39,6 +39,9 @@ body {
 
 .card {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #eae2b7;
   width: 270px;
   height: 170px;
@@ -64,7 +67,6 @@ body {
   text-align: center;
   font-size: 24px;
   top: 30px;
-  left: 30px;
   color: #003049;
 }
 
@@ -72,12 +74,11 @@ body {
   background-color: #d62828;
   display: inline-block;
   height: 30px;
+  width: 30px;
   margin: 0 10px;
   position: relative;
-  top: 100px;
-  left: 105px;
+  top: 20px;
   transform: rotate(-45deg);
-  width: 30px;
 }
 
 .heart:before,
